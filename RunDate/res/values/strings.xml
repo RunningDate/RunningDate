@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RunDate</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_chat_fragment">ChatFragment</string>
+    <string name="title_activity_set_personal_sign">SetPersonalSignActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_add_friends">AddFriendsActivity</string>
+    <string name="title_activity_personal_info">PersonalInfoActivity</string>
+    <string name="title_activity_achieve">AchieveActivity</string>
+    <string name="title_activity_date_record">DateRecordActivity</string>
+    <string name="title_activity_my_route">MyRouteActivity</string>
+
+</resources>
