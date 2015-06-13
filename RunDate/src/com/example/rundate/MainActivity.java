@@ -171,8 +171,8 @@ public class MainActivity extends FragmentActivity {
 		 
 		 //top1的监听实现
 		 head = (ImageView)findViewById(R.id.head);
-		 personalSign = (TextView)findViewById(R.id.personal_sign);
-		 search = (ImageView)findViewById(R.id.search);
+//		 personalSign = (TextView)findViewById(R.id.personal_sign);
+//		 search = (ImageView)findViewById(R.id.search);
 		 add = (ImageView)findViewById(R.id.add);
 		 //点击头像实现侧边滑动
 		 head.setOnClickListener(new OnClickListener() {
@@ -192,38 +192,38 @@ public class MainActivity extends FragmentActivity {
 		});
 		 
 		 //点击个性签名编辑个性签名
-		 personalSign.setOnClickListener(new OnClickListener(){
-
-			@Override
-			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				//创建一个intent传递消息
-				Intent intent = new Intent();
-				//指定原本的class和要启动的class
-				intent.setClass(MainActivity.this, SetPersonalSignActivity.class);
-				//调用另外一个新的Activity
-				startActivity(intent);
-				// 关闭原本的Activity,如果要返回，则不关闭
-				//MainActivity.this.finish();
-			}
-			 
-		 });
+//		 personalSign.setOnClickListener(new OnClickListener(){
+//
+//			@Override
+//			public void onClick(View v) {
+//				// TODO Auto-generated method stub
+//				//创建一个intent传递消息
+//				Intent intent = new Intent();
+//				//指定原本的class和要启动的class
+//				intent.setClass(MainActivity.this, SetPersonalSignActivity.class);
+//				//调用另外一个新的Activity
+//				startActivity(intent);
+//				// 关闭原本的Activity,如果要返回，则不关闭
+//				//MainActivity.this.finish();
+//			}
+//			 
+//		 });
 		 
-		 search.setOnClickListener(new OnClickListener(){
-
-			@Override
-			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				Intent intent = new Intent();
-				//指定原本的class和要启动的class
-				intent.setClass(MainActivity.this, SearchActivity.class);
-				//调用另外一个新的Activity
-				startActivity(intent);
-				// 关闭原本的Activity,如果要返回，则不关闭
-				//MainActivity.this.finish();
-			}
-			 
-		 });
+//		 search.setOnClickListener(new OnClickListener(){
+//
+//			@Override
+//			public void onClick(View v) {
+//				// TODO Auto-generated method stub
+//				Intent intent = new Intent();
+//				//指定原本的class和要启动的class
+//				intent.setClass(MainActivity.this, SearchActivity.class);
+//				//调用另外一个新的Activity
+//				startActivity(intent);
+//				// 关闭原本的Activity,如果要返回，则不关闭
+//				//MainActivity.this.finish();
+//			}
+//			 
+//		 });
 		 
 		 //点击添加添加好友
 		 add.setOnClickListener(new OnClickListener(){
