@@ -8,7 +8,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="约跑窗口" />
-     
+     <Button 
+         android:id="@+id/friends_info"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="好友动态"
+         
+         />
+      <Button 
+         android:id="@+id/nearby_info"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="附近约跑"
+         
+         />
+      <Button 
+         android:id="@+id/publish"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="发布约跑"
+         
+         />
      
 
 </LinearLayout>
