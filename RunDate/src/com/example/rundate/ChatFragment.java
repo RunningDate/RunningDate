@@ -50,7 +50,6 @@ public class ChatFragment extends Fragment{
 		for(int i = 0;i<3;i++){
 			Map<String,Object> listItem = new HashMap<String,Object>();
 			listItem.put("name", name[i]);
-//			listItem.put("headImage", imageIds[i]);
 			list.add(listItem);
 		}
 //		SimpleAdapter simpleAdapter = new SimpleAdapter(this.getActivity(),list,R.layout.chat_simple_item,

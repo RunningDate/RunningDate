@@ -93,6 +93,18 @@
             android:name="com.example.rundate.MyRouteActivity"
             android:label="@string/title_activity_my_route" >
         </activity>
+        <activity
+            android:name="com.example.rundate.FriendsDateActivity"
+            android:label="@string/title_activity_friends_date" >
+        </activity>
+        <activity
+            android:name="com.example.rundate.NearByDateActivity"
+            android:label="@string/title_activity_near_by_date" >
+        </activity>
+        <activity
+            android:name="com.example.rundate.PublishAvtivity"
+            android:label="@string/title_activity_publish_avtivity" >
+        </activity>
     </application>
 
 </manifest>

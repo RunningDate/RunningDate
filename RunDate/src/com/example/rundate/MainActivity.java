@@ -92,15 +92,7 @@ public class MainActivity extends FragmentActivity {
 		 dateRecord = (TextView)findViewById(R.id.date_record);
 		 myRoute = (TextView)findViewById(R.id.my_route);
 		 
-//		 headInfo.setOnClickListener(new OnClickListener(){
-//
-//				@Override
-//				public void onClick(View v) {
-//					// TODO Auto-generated method stub
-//					
-//				}
-//				 
-//			 });
+
 		 personalInfo.setOnClickListener(new OnClickListener(){
 
 				@Override
@@ -121,7 +113,7 @@ public class MainActivity extends FragmentActivity {
 
 				@Override
 				public void onClick(View v) {
-					// TODO Auto-generated method stub
+					
 					// TODO Auto-generated method stub
 					//创建一个intent传递消息
 					Intent intent = new Intent();
@@ -191,39 +183,7 @@ public class MainActivity extends FragmentActivity {
 			}
 		});
 		 
-		 //点击个性签名编辑个性签名
-//		 personalSign.setOnClickListener(new OnClickListener(){
-//
-//			@Override
-//			public void onClick(View v) {
-//				// TODO Auto-generated method stub
-//				//创建一个intent传递消息
-//				Intent intent = new Intent();
-//				//指定原本的class和要启动的class
-//				intent.setClass(MainActivity.this, SetPersonalSignActivity.class);
-//				//调用另外一个新的Activity
-//				startActivity(intent);
-//				// 关闭原本的Activity,如果要返回，则不关闭
-//				//MainActivity.this.finish();
-//			}
-//			 
-//		 });
-		 
-//		 search.setOnClickListener(new OnClickListener(){
-//
-//			@Override
-//			public void onClick(View v) {
-//				// TODO Auto-generated method stub
-//				Intent intent = new Intent();
-//				//指定原本的class和要启动的class
-//				intent.setClass(MainActivity.this, SearchActivity.class);
-//				//调用另外一个新的Activity
-//				startActivity(intent);
-//				// 关闭原本的Activity,如果要返回，则不关闭
-//				//MainActivity.this.finish();
-//			}
-//			 
-//		 });
+
 		 
 		 //点击添加添加好友
 		 add.setOnClickListener(new OnClickListener(){
@@ -429,11 +389,8 @@ public class MainActivity extends FragmentActivity {
 		}
 
 	}
-	
 	public void logMsg(String string) {
 		//text.setText(string);
 	}
 
 }
-
-

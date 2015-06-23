@@ -12,5 +12,8 @@
     <string name="title_activity_achieve">AchieveActivity</string>
     <string name="title_activity_date_record">DateRecordActivity</string>
     <string name="title_activity_my_route">MyRouteActivity</string>
+    <string name="title_activity_friends_date">FriendsDateActivity</string>
+    <string name="title_activity_near_by_date">NearByDateActivity</string>
+    <string name="title_activity_publish_avtivity">PublishAvtivity</string>
 
 </resources>
